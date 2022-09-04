@@ -1,0 +1,34 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FIMI Navi_vV1.0.20_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- mp3
+- jpg
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  builddef.lst: '8'
+  isoparser-default.properties: '8'
+  version.txt: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '20'
+  versionName: V1.0.20

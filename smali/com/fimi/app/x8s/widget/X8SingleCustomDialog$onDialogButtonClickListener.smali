@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/fimi/app/x8s/widget/X8SingleCustomDialog$onDialogButtonClickListener;
+.super Ljava/lang/Object;
+.source "X8SingleCustomDialog.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/fimi/app/x8s/widget/X8SingleCustomDialog;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "onDialogButtonClickListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onSingleButtonClick()V
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.kernel.percent.PercentLinearLayout android:orientation="horizontal" android:id="@id/x8_pll_gimbal_xyz" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_marginLeftPercent="2.71%" app:layout_marginTopPercent="3.61%">
+        <TextView android:textSize="13.0dip" android:textColor="@color/white_100" android:id="@id/x8_tv_gimbal_xyz_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x8_gimbal_xyz_adjust_p" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/white_100" android:id="@id/x8_tv_gimbal_xyz_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0" android:layout_centerVertical="true" />
+    </com.fimi.kernel.percent.PercentLinearLayout>
+    <com.fimi.kernel.percent.PercentLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/x8_pll_gimbal_xyz" android:layout_alignParentRight="true" app:layout_marginRightPercent="4.34%">
+        <Button android:textSize="14.0dip" android:textColor="@color/white_100" android:gravity="center" android:layout_gravity="center" android:id="@id/x8_btn_gimbal_xyz_subtract" android:background="@color/transparent" android:layout_width="43.0dip" android:layout_height="32.0dip" android:layout_marginRight="33.0dip" android:text="-" android:layout_centerVertical="true" />
+        <Button android:textSize="14.0dip" android:textColor="@color/white_100" android:layout_gravity="center" android:id="@id/x8_btn_gimbal_xyz_add" android:background="@color/transparent" android:layout_width="43.0dip" android:layout_height="32.0dip" android:text="+" android:layout_toLeftOf="@id/btn_sub" android:layout_centerVertical="true" />
+    </com.fimi.kernel.percent.PercentLinearLayout>
+</com.fimi.kernel.percent.PercentRelativeLayout>

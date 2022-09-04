@@ -1,0 +1,536 @@
+.class public final Lcom/fimi/app/x8s/R$color;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/fimi/app/x8s/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "color"
+.end annotation
+
+
+# static fields
+.field public static final abc_background_cache_hint_selector_material_dark:I = 0x7f0f0100
+
+.field public static final abc_background_cache_hint_selector_material_light:I = 0x7f0f0101
+
+.field public static final abc_btn_colored_borderless_text_material:I = 0x7f0f0102
+
+.field public static final abc_btn_colored_text_material:I = 0x7f0f0103
+
+.field public static final abc_color_highlight_material:I = 0x7f0f0104
+
+.field public static final abc_hint_foreground_material_dark:I = 0x7f0f0105
+
+.field public static final abc_hint_foreground_material_light:I = 0x7f0f0106
+
+.field public static final abc_input_method_navigation_guard:I = 0x7f0f0009
+
+.field public static final abc_primary_text_disable_only_material_dark:I = 0x7f0f0107
+
+.field public static final abc_primary_text_disable_only_material_light:I = 0x7f0f0108
+
+.field public static final abc_primary_text_material_dark:I = 0x7f0f0109
+
+.field public static final abc_primary_text_material_light:I = 0x7f0f010a
+
+.field public static final abc_search_url_text:I = 0x7f0f010b
+
+.field public static final abc_search_url_text_normal:I = 0x7f0f000a
+
+.field public static final abc_search_url_text_pressed:I = 0x7f0f000b
+
+.field public static final abc_search_url_text_selected:I = 0x7f0f000c
+
+.field public static final abc_secondary_text_material_dark:I = 0x7f0f010c
+
+.field public static final abc_secondary_text_material_light:I = 0x7f0f010d
+
+.field public static final abc_tint_btn_checkable:I = 0x7f0f010e
+
+.field public static final abc_tint_default:I = 0x7f0f010f
+
+.field public static final abc_tint_edittext:I = 0x7f0f0110
+
+.field public static final abc_tint_seek_thumb:I = 0x7f0f0111
+
+.field public static final abc_tint_spinner:I = 0x7f0f0112
+
+.field public static final abc_tint_switch_track:I = 0x7f0f0113
+
+.field public static final accent_material_dark:I = 0x7f0f000d
+
+.field public static final accent_material_light:I = 0x7f0f000e
+
+.field public static final album_item_bg:I = 0x7f0f000f
+
+.field public static final all_transparent:I = 0x7f0f0010
+
+.field public static final background_floating_material_dark:I = 0x7f0f0011
+
+.field public static final background_floating_material_light:I = 0x7f0f0012
+
+.field public static final background_material_dark:I = 0x7f0f0013
+
+.field public static final background_material_light:I = 0x7f0f0014
+
+.field public static final black:I = 0x7f0f0015
+
+.field public static final black_20:I = 0x7f0f0016
+
+.field public static final black_34:I = 0x7f0f0017
+
+.field public static final black_5:I = 0x7f0f0018
+
+.field public static final black_50:I = 0x7f0f0019
+
+.field public static final black_65:I = 0x7f0f001a
+
+.field public static final black_70:I = 0x7f0f001b
+
+.field public static final black_80:I = 0x7f0f001c
+
+.field public static final black_90:I = 0x7f0f001d
+
+.field public static final bright_foreground_disabled_material_dark:I = 0x7f0f001e
+
+.field public static final bright_foreground_disabled_material_light:I = 0x7f0f001f
+
+.field public static final bright_foreground_inverse_material_dark:I = 0x7f0f0020
+
+.field public static final bright_foreground_inverse_material_light:I = 0x7f0f0021
+
+.field public static final bright_foreground_material_dark:I = 0x7f0f0022
+
+.field public static final bright_foreground_material_light:I = 0x7f0f0023
+
+.field public static final button_material_dark:I = 0x7f0f0024
+
+.field public static final button_material_light:I = 0x7f0f0025
+
+.field public static final cl_stausbar:I = 0x7f0f0026
+
+.field public static final colorAccent:I = 0x7f0f0027
+
+.field public static final colorPrimary:I = 0x7f0f0028
+
+.field public static final colorPrimaryDark:I = 0x7f0f0029
+
+.field public static final com_facebook_blue:I = 0x7f0f002a
+
+.field public static final com_facebook_button_background_color:I = 0x7f0f002b
+
+.field public static final com_facebook_button_background_color_disabled:I = 0x7f0f002c
+
+.field public static final com_facebook_button_background_color_pressed:I = 0x7f0f002d
+
+.field public static final com_facebook_button_like_background_color_selected:I = 0x7f0f002e
+
+.field public static final com_facebook_button_login_silver_background_color:I = 0x7f0f002f
+
+.field public static final com_facebook_button_login_silver_background_color_pressed:I = 0x7f0f0030
+
+.field public static final com_facebook_button_send_background_color:I = 0x7f0f0031
+
+.field public static final com_facebook_button_send_background_color_pressed:I = 0x7f0f0032
+
+.field public static final com_facebook_likeboxcountview_border_color:I = 0x7f0f0033
+
+.field public static final com_facebook_likeboxcountview_text_color:I = 0x7f0f0034
+
+.field public static final com_facebook_likeview_text_color:I = 0x7f0f0035
+
+.field public static final com_facebook_share_button_text_color:I = 0x7f0f0036
+
+.field public static final common_google_signin_btn_text_dark:I = 0x7f0f0114
+
+.field public static final common_google_signin_btn_text_dark_default:I = 0x7f0f0037
+
+.field public static final common_google_signin_btn_text_dark_disabled:I = 0x7f0f0038
+
+.field public static final common_google_signin_btn_text_dark_focused:I = 0x7f0f0039
+
+.field public static final common_google_signin_btn_text_dark_pressed:I = 0x7f0f003a
+
+.field public static final common_google_signin_btn_text_light:I = 0x7f0f0115
+
+.field public static final common_google_signin_btn_text_light_default:I = 0x7f0f003b
+
+.field public static final common_google_signin_btn_text_light_disabled:I = 0x7f0f003c
+
+.field public static final common_google_signin_btn_text_light_focused:I = 0x7f0f003d
+
+.field public static final common_google_signin_btn_text_light_pressed:I = 0x7f0f003e
+
+.field public static final common_google_signin_btn_tint:I = 0x7f0f0116
+
+.field public static final design_bottom_navigation_shadow_color:I = 0x7f0f0040
+
+.field public static final design_error:I = 0x7f0f0117
+
+.field public static final design_fab_shadow_end_color:I = 0x7f0f0041
+
+.field public static final design_fab_shadow_mid_color:I = 0x7f0f0042
+
+.field public static final design_fab_shadow_start_color:I = 0x7f0f0043
+
+.field public static final design_fab_stroke_end_inner_color:I = 0x7f0f0044
+
+.field public static final design_fab_stroke_end_outer_color:I = 0x7f0f0045
+
+.field public static final design_fab_stroke_top_inner_color:I = 0x7f0f0046
+
+.field public static final design_fab_stroke_top_outer_color:I = 0x7f0f0047
+
+.field public static final design_snackbar_background_color:I = 0x7f0f0048
+
+.field public static final design_tint_password_toggle:I = 0x7f0f0118
+
+.field public static final dialog_item_color:I = 0x7f0f0049
+
+.field public static final dialog_scrollow_textview:I = 0x7f0f004a
+
+.field public static final dialog_warning_font:I = 0x7f0f004b
+
+.field public static final dim_foreground_disabled_material_dark:I = 0x7f0f004c
+
+.field public static final dim_foreground_disabled_material_light:I = 0x7f0f004d
+
+.field public static final dim_foreground_material_dark:I = 0x7f0f004e
+
+.field public static final dim_foreground_material_light:I = 0x7f0f004f
+
+.field public static final error_color_material:I = 0x7f0f0053
+
+.field public static final fimisdk_black_60:I = 0x7f0f0054
+
+.field public static final fimisdk_letter_show:I = 0x7f0f0055
+
+.field public static final fimisdk_letter_unshow:I = 0x7f0f0056
+
+.field public static final fimisdk_text_centre:I = 0x7f0f0057
+
+.field public static final fimisdk_text_contour:I = 0x7f0f0058
+
+.field public static final foreground_material_dark:I = 0x7f0f0059
+
+.field public static final foreground_material_light:I = 0x7f0f005a
+
+.field public static final highlighted_text_material_dark:I = 0x7f0f005d
+
+.field public static final highlighted_text_material_light:I = 0x7f0f005e
+
+.field public static final ic_launcher_background:I = 0x7f0f0060
+
+.field public static final kernal_status_status:I = 0x7f0f0062
+
+.field public static final material_blue_grey_800:I = 0x7f0f006e
+
+.field public static final material_blue_grey_900:I = 0x7f0f006f
+
+.field public static final material_blue_grey_950:I = 0x7f0f0070
+
+.field public static final material_deep_teal_200:I = 0x7f0f0071
+
+.field public static final material_deep_teal_500:I = 0x7f0f0072
+
+.field public static final material_grey_100:I = 0x7f0f0073
+
+.field public static final material_grey_300:I = 0x7f0f0074
+
+.field public static final material_grey_50:I = 0x7f0f0075
+
+.field public static final material_grey_600:I = 0x7f0f0076
+
+.field public static final material_grey_800:I = 0x7f0f0077
+
+.field public static final material_grey_850:I = 0x7f0f0078
+
+.field public static final material_grey_900:I = 0x7f0f0079
+
+.field public static final media_all_no_select:I = 0x7f0f0001
+
+.field public static final media_all_select:I = 0x7f0f0002
+
+.field public static final media_diviver:I = 0x7f0f0003
+
+.field public static final media_head_direction_bg:I = 0x7f0f0004
+
+.field public static final media_main_bg:I = 0x7f0f0005
+
+.field public static final media_tablayout_text:I = 0x7f0f0006
+
+.field public static final meida_detail_title:I = 0x7f0f0007
+
+.field public static final mi_color_ff4c31:I = 0x7f0f007a
+
+.field public static final notification_action_color_filter:I = 0x7f0f0000
+
+.field public static final notification_icon_bg_color:I = 0x7f0f007b
+
+.field public static final notification_material_background_media_default_color:I = 0x7f0f007c
+
+.field public static final primary_dark_material_dark:I = 0x7f0f0082
+
+.field public static final primary_dark_material_light:I = 0x7f0f0083
+
+.field public static final primary_material_dark:I = 0x7f0f0084
+
+.field public static final primary_material_light:I = 0x7f0f0085
+
+.field public static final primary_text_default_material_dark:I = 0x7f0f0086
+
+.field public static final primary_text_default_material_light:I = 0x7f0f0087
+
+.field public static final primary_text_disabled_material_dark:I = 0x7f0f0088
+
+.field public static final primary_text_disabled_material_light:I = 0x7f0f0089
+
+.field public static final quick_setting_selected:I = 0x7f0f008a
+
+.field public static final recycle_head_title:I = 0x7f0f0008
+
+.field public static final ripple_material_dark:I = 0x7f0f008e
+
+.field public static final ripple_material_light:I = 0x7f0f008f
+
+.field public static final rounprogress_font:I = 0x7f0f0090
+
+.field public static final rounprogress_one:I = 0x7f0f0091
+
+.field public static final rounprogress_two:I = 0x7f0f0092
+
+.field public static final secondary_text_default_material_dark:I = 0x7f0f0093
+
+.field public static final secondary_text_default_material_light:I = 0x7f0f0094
+
+.field public static final secondary_text_disabled_material_dark:I = 0x7f0f0095
+
+.field public static final secondary_text_disabled_material_light:I = 0x7f0f0096
+
+.field public static final switch_thumb_disabled_material_dark:I = 0x7f0f0099
+
+.field public static final switch_thumb_disabled_material_light:I = 0x7f0f009a
+
+.field public static final switch_thumb_material_dark:I = 0x7f0f011e
+
+.field public static final switch_thumb_material_light:I = 0x7f0f011f
+
+.field public static final switch_thumb_normal_material_dark:I = 0x7f0f009b
+
+.field public static final switch_thumb_normal_material_light:I = 0x7f0f009c
+
+.field public static final tabradio_attr_selected_color:I = 0x7f0f009d
+
+.field public static final tabradio_attr_selected_text_color:I = 0x7f0f009e
+
+.field public static final tabradio_attr_unselected_color:I = 0x7f0f009f
+
+.field public static final tabradio_attr_unselected_text_color:I = 0x7f0f00a0
+
+.field public static final tooltip_background_dark:I = 0x7f0f00a1
+
+.field public static final tooltip_background_light:I = 0x7f0f00a2
+
+.field public static final transparent:I = 0x7f0f00a3
+
+.field public static final tw__black_opacity_10:I = 0x7f0f00a4
+
+.field public static final tw__blue_default:I = 0x7f0f00a5
+
+.field public static final tw__blue_pressed:I = 0x7f0f00a6
+
+.field public static final tw__composer_black:I = 0x7f0f00a7
+
+.field public static final tw__composer_blue:I = 0x7f0f00a8
+
+.field public static final tw__composer_blue_text:I = 0x7f0f00a9
+
+.field public static final tw__composer_deep_gray:I = 0x7f0f00aa
+
+.field public static final tw__composer_light_gray:I = 0x7f0f00ab
+
+.field public static final tw__composer_red:I = 0x7f0f00ac
+
+.field public static final tw__composer_white:I = 0x7f0f00ad
+
+.field public static final tw__cta_border_color:I = 0x7f0f00ae
+
+.field public static final tw__cta_text_color:I = 0x7f0f00af
+
+.field public static final tw__light_gray:I = 0x7f0f00b0
+
+.field public static final tw__seekbar_thumb_inner_color:I = 0x7f0f00b1
+
+.field public static final tw__seekbar_thumb_outer_color:I = 0x7f0f00b2
+
+.field public static final tw__solid_white:I = 0x7f0f00b3
+
+.field public static final tw__tweet_action_color:I = 0x7f0f00b4
+
+.field public static final tw__tweet_action_dark_highlight_color:I = 0x7f0f00b5
+
+.field public static final tw__tweet_action_light_highlight_color:I = 0x7f0f00b6
+
+.field public static final tw__tweet_dark_container_bg_color:I = 0x7f0f00b7
+
+.field public static final tw__tweet_dark_primary_text_color:I = 0x7f0f00b8
+
+.field public static final tw__tweet_light_container_bg_color:I = 0x7f0f00b9
+
+.field public static final tw__tweet_light_primary_text_color:I = 0x7f0f00ba
+
+.field public static final umeng_socialize_color_group:I = 0x7f0f00bb
+
+.field public static final umeng_socialize_comments_bg:I = 0x7f0f00bc
+
+.field public static final umeng_socialize_divider:I = 0x7f0f00bd
+
+.field public static final umeng_socialize_edit_bg:I = 0x7f0f00be
+
+.field public static final umeng_socialize_grid_divider_line:I = 0x7f0f00bf
+
+.field public static final umeng_socialize_list_item_bgcolor:I = 0x7f0f00c0
+
+.field public static final umeng_socialize_list_item_textcolor:I = 0x7f0f00c1
+
+.field public static final umeng_socialize_shareactivity:I = 0x7f0f00c2
+
+.field public static final umeng_socialize_shareactivitydefault:I = 0x7f0f00c3
+
+.field public static final umeng_socialize_text_friends_list:I = 0x7f0f00c4
+
+.field public static final umeng_socialize_text_share_content:I = 0x7f0f00c5
+
+.field public static final umeng_socialize_text_time:I = 0x7f0f00c6
+
+.field public static final umeng_socialize_text_title:I = 0x7f0f00c7
+
+.field public static final umeng_socialize_text_ucenter:I = 0x7f0f00c8
+
+.field public static final umeng_socialize_ucenter_bg:I = 0x7f0f00c9
+
+.field public static final umeng_socialize_web_bg:I = 0x7f0f00ca
+
+.field public static final white_10:I = 0x7f0f00cb
+
+.field public static final white_100:I = 0x7f0f00cc
+
+.field public static final white_15:I = 0x7f0f00cd
+
+.field public static final white_20:I = 0x7f0f00ce
+
+.field public static final white_25:I = 0x7f0f00cf
+
+.field public static final white_30:I = 0x7f0f00d0
+
+.field public static final white_35:I = 0x7f0f00d1
+
+.field public static final white_5:I = 0x7f0f00d2
+
+.field public static final white_50:I = 0x7f0f00d3
+
+.field public static final white_60:I = 0x7f0f00d4
+
+.field public static final white_80:I = 0x7f0f00d5
+
+.field public static final white_90:I = 0x7f0f00d6
+
+.field public static final x1bh_setting_divide:I = 0x7f0f00d7
+
+.field public static final x8_ai_line_default:I = 0x7f0f00d8
+
+.field public static final x8_ai_line_run:I = 0x7f0f00d9
+
+.field public static final x8_ai_line_runing:I = 0x7f0f00da
+
+.field public static final x8_battery_most_low:I = 0x7f0f00db
+
+.field public static final x8_battery_state_abnormal:I = 0x7f0f00dc
+
+.field public static final x8_battery_state_low_temperature_blue:I = 0x7f0f00dd
+
+.field public static final x8_battery_state_normal:I = 0x7f0f00de
+
+.field public static final x8_battery_state_serious:I = 0x7f0f00df
+
+.field public static final x8_color_aircrft_calibration_green:I = 0x7f0f00e0
+
+.field public static final x8_color_gimbal_red:I = 0x7f0f00e1
+
+.field public static final x8_drone_inface_line:I = 0x7f0f00e2
+
+.field public static final x8_error_code_type1:I = 0x7f0f00e3
+
+.field public static final x8_error_code_type2:I = 0x7f0f00e4
+
+.field public static final x8_error_code_type3:I = 0x7f0f00e5
+
+.field public static final x8_fc_all_setting_blue:I = 0x7f0f00e6
+
+.field public static final x8_fc_imu_check_exception:I = 0x7f0f00e7
+
+.field public static final x8_fc_imu_check_namal:I = 0x7f0f00e8
+
+.field public static final x8_follow_speed_line_bg:I = 0x7f0f00e9
+
+.field public static final x8_follow_speed_line_cursor:I = 0x7f0f00ea
+
+.field public static final x8_follow_speed_line_progess:I = 0x7f0f00eb
+
+.field public static final x8_gimbal_xyz_adjust_txt:I = 0x7f0f00ec
+
+.field public static final x8_iso_selected:I = 0x7f0f00ed
+
+.field public static final x8_iso_unselected:I = 0x7f0f00ee
+
+.field public static final x8_main_return_time_bg:I = 0x7f0f00ef
+
+.field public static final x8_main_top_font:I = 0x7f0f00f0
+
+.field public static final x8_media_tab_select:I = 0x7f0f00f1
+
+.field public static final x8_media_tab_unselect:I = 0x7f0f00f2
+
+.field public static final x8_sdcard_free:I = 0x7f0f00f3
+
+.field public static final x8_sdcard_photo:I = 0x7f0f00f4
+
+.field public static final x8_sdcard_video:I = 0x7f0f00f5
+
+.field public static final x8_track_fill_lost:I = 0x7f0f00f6
+
+.field public static final x8_track_fill_lost_error:I = 0x7f0f00f7
+
+.field public static final x8_track_lost:I = 0x7f0f00f8
+
+.field public static final x8_track_select:I = 0x7f0f00f9
+
+.field public static final x8_track_select_error:I = 0x7f0f00fa
+
+.field public static final x8_update_failure_hint:I = 0x7f0f00fb
+
+.field public static final x8_value_disable:I = 0x7f0f00fc
+
+.field public static final x8_value_disable_select:I = 0x7f0f00fd
+
+.field public static final x8_value_select:I = 0x7f0f00fe
+
+.field public static final x8_value_unselected:I = 0x7f0f00ff
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 636
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

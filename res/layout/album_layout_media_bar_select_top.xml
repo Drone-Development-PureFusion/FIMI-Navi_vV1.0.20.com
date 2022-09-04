@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/media_select_top_rl" android:background="#ff15afcb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="12.0sp" android:textColor="#e6ffffff" android:gravity="center" android:id="@id/all_select_btn" android:background="@drawable/album_frame_selector" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" android:text="@string/media_select_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:textSize="12.0sp" android:textColor="#e6ffffff" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/album_frame_selector" android:layout_width="48.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" android:text="@string/media_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#e6ffffff" android:id="@id/select_n_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_select_0_item" android:layout_centerInParent="true" />
+    <TextView android:background="#26ffffff" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

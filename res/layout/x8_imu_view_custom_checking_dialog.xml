@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/x8_shape_dialog_content_bg" android:layout_width="183.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.kernel.percent.PercentLinearLayout android:orientation="vertical" android:id="@id/layout_content" android:background="@drawable/x8_img_double_dialog_content_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/x8s_view_custom_dialog_x1" android:layout_marginRight="@dimen/x8s_view_custom_dialog_x1">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/x8_view_imu_checking_loading" android:background="@drawable/x8_ai_auto_phto_loding_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_marginTopPercent="7.33%h" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white_100" android:ellipsize="none" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/x8s_view_custom_dialog_x5" android:layout_marginRight="@dimen/x8s_view_custom_dialog_x5" android:text="@string/x8_fc_item_imu_checking" android:maxLines="100" app:layout_marginTopPercent="2.78%h" />
+        <TextView android:textSize="8.0dip" android:textColor="@color/white_100" android:ellipsize="none" android:gravity="center" android:id="@id/tv_message_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/x8s_view_custom_dialog_x5" android:layout_marginRight="@dimen/x8s_view_custom_dialog_x5" android:text="@string/x8_fc_item_imu_hint" android:maxLines="100" app:layout_marginTopPercent="2.13%h" />
+        <TextView android:layout_width="fill_parent" android:layout_height="@dimen/x8s_view_custom_dialog_x3" />
+    </com.fimi.kernel.percent.PercentLinearLayout>
+</RelativeLayout>

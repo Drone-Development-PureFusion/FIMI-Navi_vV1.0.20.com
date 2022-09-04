@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/x8_ai_auto_phto_loding_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_loading" android:background="@drawable/x8_ai_auto_phto_loding_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/textsize_36" android:textColor="@color/white_100" android:id="@id/x8_tv_loading_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x8_ai_auto_photo_vertical_loading_tip" android:layout_below="@id/img_loading" />
+    </LinearLayout>
+</RelativeLayout>

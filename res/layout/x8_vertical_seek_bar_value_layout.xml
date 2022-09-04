@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fimi.app.x8s.widget.X8VerticalSeekBar android:id="@id/verticalSeekBar" android:layout_width="40.0dip" android:layout_height="130.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/white_100" android:id="@id/tv_value" android:background="@drawable/x8_ai_follow_marker_info_bg" android:paddingLeft="@dimen/x8s_map_custom_mark_view_x2" android:paddingRight="@dimen/x8s_map_custom_mark_view_x2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.5x" />
+</RelativeLayout>

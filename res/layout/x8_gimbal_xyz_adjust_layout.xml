@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.percent.PercentRelativeLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:doubleWaySeekBar="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/x8_gimbal_horizontal_help_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.fimi.kernel.percent.PercentRelativeLayout android:orientation="vertical" android:id="@id/rl_gc_calibrate" android:background="@color/black_80" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" doubleWaySeekBar:layout_widthPercent="29.06%" doubleWaySeekBar:layout_heightPercent="74.16%" doubleWaySeekBar:layout_marginTopPercent="8.05%">
+        <com.fimi.kernel.percent.PercentLinearLayout android:orientation="vertical" android:id="@id/x8_pl_xyz_adjust_setting" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.fimi.app.x8s.widget.X8GimbalXYZAdjustRelayout android:id="@id/x8_view_gimbal_p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <com.fimi.app.x8s.widget.X8GimbalXYZAdjustRelayout android:id="@id/x8_view_gimbal_r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <com.fimi.app.x8s.widget.X8GimbalXYZAdjustRelayout android:id="@id/x8_view_gimbal_y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </com.fimi.kernel.percent.PercentLinearLayout>
+        <com.fimi.kernel.percent.PercentLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" doubleWaySeekBar:layout_marginBottomPercent="2.77%">
+            <Button android:textSize="12.0dip" android:textColor="@color/white_100" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/x8_btn_xyz_adjust_exit" android:background="@drawable/x8_gimbal_xyz_adjust_btn_exit_selector" android:layout_width="67.0dip" android:layout_height="27.0dip" android:text="@string/x8_gimbal_xyz_adjust_signout" android:textAllCaps="false" />
+            <Button android:textSize="12.0dip" android:textColor="@color/x8_gimbal_xyz_adjust_txt" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/x8_btn_xyz_adjust_save" android:background="@drawable/x8_gimbal_xyz_adjust_btn_selector" android:layout_width="67.0dip" android:layout_height="27.0dip" android:text="@string/x8_save" android:textAllCaps="false" doubleWaySeekBar:layout_marginLeftPercent="15.9%" />
+        </com.fimi.kernel.percent.PercentLinearLayout>>
+</com.fimi.kernel.percent.PercentRelativeLayout>
+    <com.fimi.app.x8s.widget.X8AiTipWithCloseView android:orientation="horizontal" android:id="@id/x8_gimbal_xyz_adiust_tip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" doubleWaySeekBar:layout_marginBottomPercent="4.722222%" />
+</com.fimi.kernel.percent.PercentRelativeLayout>

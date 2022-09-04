@@ -1,0 +1,125 @@
+package ch.qos.logback.core.net.ssl;
+
+import ch.qos.logback.core.spi.ContextAwareBase;
+import ch.qos.logback.core.util.OptionHelper;
+import ch.qos.logback.core.util.StringCollectionUtil;
+import java.util.ArrayList;
+import java.util.Arrays;
+/* loaded from: classes.dex */
+public class SSLParametersConfiguration extends ContextAwareBase {
+    private String[] enabledCipherSuites;
+    private String[] enabledProtocols;
+    private String excludedCipherSuites;
+    private String excludedProtocols;
+    private String includedCipherSuites;
+    private String includedProtocols;
+    private Boolean needClientAuth;
+    private Boolean wantClientAuth;
+
+    private String[] enabledCipherSuites(String[] strArr, String[] strArr2) {
+        if (this.enabledCipherSuites == null) {
+            if (!OptionHelper.isEmpty(getIncludedCipherSuites()) || !OptionHelper.isEmpty(getExcludedCipherSuites())) {
+                this.enabledCipherSuites = includedStrings(strArr, getIncludedCipherSuites(), getExcludedCipherSuites());
+            } else {
+                this.enabledCipherSuites = (String[]) Arrays.copyOf(strArr2, strArr2.length);
+            }
+            String[] strArr3 = this.enabledCipherSuites;
+            int length = strArr3.length;
+            for (int i = 0; i < length; i++) {
+                addInfo("enabled cipher suite: " + strArr3[i]);
+            }
+        }
+        return this.enabledCipherSuites;
+    }
+
+    private String[] enabledProtocols(String[] strArr, String[] strArr2) {
+        if (this.enabledProtocols == null) {
+            if (!OptionHelper.isEmpty(getIncludedProtocols()) || !OptionHelper.isEmpty(getExcludedProtocols())) {
+                this.enabledProtocols = includedStrings(strArr, getIncludedProtocols(), getExcludedProtocols());
+            } else {
+                this.enabledProtocols = (String[]) Arrays.copyOf(strArr2, strArr2.length);
+            }
+            String[] strArr3 = this.enabledProtocols;
+            int length = strArr3.length;
+            for (int i = 0; i < length; i++) {
+                addInfo("enabled protocol: " + strArr3[i]);
+            }
+        }
+        return this.enabledProtocols;
+    }
+
+    private String[] includedStrings(String[] strArr, String str, String str2) {
+        ArrayList arrayList = new ArrayList(strArr.length);
+        arrayList.addAll(Arrays.asList(strArr));
+        if (str != null) {
+            StringCollectionUtil.retainMatching(arrayList, stringToArray(str));
+        }
+        if (str2 != null) {
+            StringCollectionUtil.removeMatching(arrayList, stringToArray(str2));
+        }
+        return (String[]) arrayList.toArray(new String[arrayList.size()]);
+    }
+
+    private String[] stringToArray(String str) {
+        return str.split("\\s*,\\s*");
+    }
+
+    public void configure(SSLConfigurable sSLConfigurable) {
+        sSLConfigurable.setEnabledProtocols(enabledProtocols(sSLConfigurable.getSupportedProtocols(), sSLConfigurable.getDefaultProtocols()));
+        sSLConfigurable.setEnabledCipherSuites(enabledCipherSuites(sSLConfigurable.getSupportedCipherSuites(), sSLConfigurable.getDefaultCipherSuites()));
+        if (isNeedClientAuth() != null) {
+            sSLConfigurable.setNeedClientAuth(isNeedClientAuth().booleanValue());
+        }
+        if (isWantClientAuth() != null) {
+            sSLConfigurable.setWantClientAuth(isWantClientAuth().booleanValue());
+        }
+    }
+
+    public String getExcludedCipherSuites() {
+        return this.excludedCipherSuites;
+    }
+
+    public String getExcludedProtocols() {
+        return this.excludedProtocols;
+    }
+
+    public String getIncludedCipherSuites() {
+        return this.includedCipherSuites;
+    }
+
+    public String getIncludedProtocols() {
+        return this.includedProtocols;
+    }
+
+    public Boolean isNeedClientAuth() {
+        return this.needClientAuth;
+    }
+
+    public Boolean isWantClientAuth() {
+        return this.wantClientAuth;
+    }
+
+    public void setExcludedCipherSuites(String str) {
+        this.excludedCipherSuites = str;
+    }
+
+    public void setExcludedProtocols(String str) {
+        this.excludedProtocols = str;
+    }
+
+    public void setIncludedCipherSuites(String str) {
+        this.includedCipherSuites = str;
+    }
+
+    public void setIncludedProtocols(String str) {
+        this.includedProtocols = str;
+    }
+
+    public void setNeedClientAuth(Boolean bool) {
+        this.needClientAuth = bool;
+    }
+
+    public void setWantClientAuth(Boolean bool) {
+        this.wantClientAuth = bool;
+    }
+}

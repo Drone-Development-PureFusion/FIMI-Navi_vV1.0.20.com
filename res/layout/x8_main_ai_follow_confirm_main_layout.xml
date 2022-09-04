@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fimi.kernel.percent.PercentRelativeLayout android:id="@id/x8_main_ai_follow_confirm_main_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <View android:id="@id/x8_main_ai_follow_confirm_main_layout_content_blank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/x8_main_ai_follow_confirm_main_layout_content" />
+        <com.fimi.kernel.percent.PercentRelativeLayout android:id="@id/x8_main_ai_follow_confirm_main_layout_content" android:background="@color/black_80" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" app:layout_widthPercent="50%w"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </com.fimi.kernel.percent.PercentRelativeLayout>
+</merge>
